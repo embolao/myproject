@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "myproject"
+version = "0.1.0"
+description = ""
+authors = ["embolao <kent@embolao.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.25.1"
+mock = "^4.0.3"
+argparse = "^1.4.0"
+mypy = "^0.800"
+pre-commit = "^2.10.1"
+flake8 = "^3.8.4"
+pytest = "^6.2.2"
+astpretty = "^2.1.0"
+cz = "^0.0.0-alpha.20200924"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[pytest]

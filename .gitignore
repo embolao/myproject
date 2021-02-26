@@ -1,0 +1,6 @@
+.mypy_cache/
+.pytest_cache/
+mylibreria/.mypy_cache/
+tests/.pytest_cache/
+mylibreria/__pycache__/
+tests/__pycache__/
